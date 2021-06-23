@@ -1,0 +1,209 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7W0Q5n-wU.woff2") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7W0Q5n-wU.woff2") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body,
+html {
+  font-family: "Inter", sans-serif;
+  color: #272b32;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+  font-weight: normal;
+}
+
+body {
+  min-width: 320px;
+}
+
+main {
+  min-height: 100%;
+  padding-bottom: 2.875rem;
+  padding-top: 6.75rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+form {
+  max-width: 415px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.error {
+  margin-bottom: 3.375rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6f798b;
+}
+
+.error:before {
+  content: '!';
+  border-radius: 50%;
+  width: 1.25rem;
+  max-width: 1.25rem;
+  min-width: 1.25rem;
+  height: 1.25rem;
+  max-height: 1.25rem;
+  min-height: 1.25rem;
+  background-color: #e53636;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  margin-right: 0.75rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+input {
+  height: 3.375rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #e0e3e8;
+  padding-left: 1.35rem;
+  padding-right: 1.35rem;
+  font-size: 1rem;
+  color: #272b32;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  -webkit-appearance: none;
+  transition: border 0.2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+}
+
+input:focus {
+  border-color: #6f798b;
+}
+
+.button {
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  background-color: #e01254;
+  border-radius: 6px;
+  color: #fff;
+  height: 3.375rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-top: 1.125rem;
+  padding-left: 2.025rem;
+  padding-right: 2.025rem;
+}
+
+button:hover {
+  background-color: #e91358;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #49505c;
+  margin-top: 4.375rem;
+  width: 100%;
+  flex: 1;
+  align-items: flex-end;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.copyright a {
+  border-bottom-width: 1px;
+  transition: border-color 0.15s ease 0s, color 0.15s ease 0s;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(73,80,92,0.3);
+  color: #49505c;
+}
+
+.copyright a:hover {
+  border-bottom-color: rgba(73,80,92,0.8);
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    padding-top: 4.375rem;
+  }
+}
